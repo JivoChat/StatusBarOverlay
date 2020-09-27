@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.0"
 
-  s.source           = { :git => "https://github.com/IdleHandsApps/StatusBarOverlay.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:JivoChat/StatusBarOverlay.git", :branch => "master" }
 
   s.source_files = "Sources/*.swift"
   s.dependency  'ReachabilitySwift', '~> 5.0.0'
